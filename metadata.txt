@@ -1,27 +1,25 @@
 [general]
-name=HelloServer
+name=QGIS Serveur GeoFoncier
 qgisMinimumVersion=3
-description=This is a test plugin for the QGIS MapServer
-version=version 1.2
-author=Alessandro Pasotti (ItOpen)
-email=apasotti@gmail.com
-; if True it's a server plugin
+description=Transform default GeoFoncier GetFeatureInfo to get usefull information 
+version=version 1.0
+author=Arnaud Vandecasteele 
+email=arnaud [dot] sig [at] gmail [dot] com
 server=True
 
 changelog=
 
 
-tags=hello world, test, server
+tags=GeoFoncier
 
-tracker=https://github.com/elpaso/qgis-helloserver
-homepage=https://github.com/elpaso/qgis-helloserver
-repository=https://github.com/elpaso/qgis-helloserver
+tracker=https://github.com/arno974/qgis-serveur-geofoncier
+homepage=https://github.com/arno974/qgis-serveur-geofoncier
+repository=https://github.com/arno974/qgis-serveur-geofoncier
 
 category=server
 
 experimental=True
 
-about=This is a test plugin *** DO NOT USE IN PRODUCTION!!!  ***. It provides various
-    testing methods, see https://github.com/elpaso/qgis-helloserver/blob/master/README.rst
+about=
 
 
