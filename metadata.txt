@@ -1,0 +1,27 @@
+[general]
+name=HelloServer
+qgisMinimumVersion=3
+description=This is a test plugin for the QGIS MapServer
+version=version 1.2
+author=Alessandro Pasotti (ItOpen)
+email=apasotti@gmail.com
+; if True it's a server plugin
+server=True
+
+changelog=
+
+
+tags=hello world, test, server
+
+tracker=https://github.com/elpaso/qgis-helloserver
+homepage=https://github.com/elpaso/qgis-helloserver
+repository=https://github.com/elpaso/qgis-helloserver
+
+category=server
+
+experimental=True
+
+about=This is a test plugin *** DO NOT USE IN PRODUCTION!!!  ***. It provides various
+    testing methods, see https://github.com/elpaso/qgis-helloserver/blob/master/README.rst
+
+
