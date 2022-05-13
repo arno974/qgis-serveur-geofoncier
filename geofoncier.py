@@ -80,12 +80,12 @@ class GeoFoncierServerFilter(QgsServerFilter):
                         root.remove(layer)
                         root.append(geofoncier_xml)   
 
-        _xml = ET.tostring(root, method='xml').decode("utf-8").split('\n')
-        _xml = '\n'.join(_xml[0:])
-        #return xml with custom values
-        request.clear()
-        request.setResponseHeader('Content-Type', 'text/xml')
-        request.appendBody(bytes(_xml, 'utf-8'))
+            _xml = ET.tostring(root, method='xml').decode("utf-8").split('\n')
+            _xml = '\n'.join(_xml[0:])
+            #return xml with custom values
+            request.clear()
+            request.setResponseHeader('Content-Type', 'text/xml')
+            request.appendBody(bytes(_xml, 'utf-8'))
 
     def create_xml_response(self, json_response):
         ##pretty name
